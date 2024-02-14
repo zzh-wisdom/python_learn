@@ -12,4 +12,4 @@ for item in comments:
     size = item['productSize']
     print(color + '_' + size)
     sheet.append([color, size])
-wk.save('京东销量最高的鞋子的颜色和大小.xlsx')
+    wk.save('京东销量最高的鞋子的颜色和大小.xlsx')
